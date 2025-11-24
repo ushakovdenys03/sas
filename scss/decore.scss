@@ -1,0 +1,29 @@
+@import "./utils/fonts";
+
+
+body {
+    --bg: radial-gradient(circle, #cce3f1 0%, #4dbde9ac 80%, #248ecfbd 100%);
+    --text: #000000;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+    --bg: radial-gradient(circle, #d7b2e7 0%, #7a2882ac 80%, #500451bd 100%);
+    --text: #ffffff;
+}
+
+a, button, label, svg {
+    outline: none;
+}
+
+h1, h2, p{
+    margin: 0
+}
+
+
+
+@import "./components/header";
+@import "./utils/tumbler";
+@import "./utils/backdrop"

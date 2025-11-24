@@ -1,0 +1,14 @@
+.backdrop{
+    position: fixed;
+    background: var(--bg);
+    opacity: 100%;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.backdrop.is-hidden{
+    transform: translateX(-100%)
+}
