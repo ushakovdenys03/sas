@@ -7,6 +7,29 @@
     width: 30%;
     height: 100%;
     transition: 0.3s;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__cross{
+        display: flex;
+        justify-content: end;
+        padding: 5px;
+    }
+
+    &__menu{
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0 10px;
+
+    }
 }
 
 .backdrop.is-hidden{

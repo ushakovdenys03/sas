@@ -1,0 +1,14 @@
+.socials a {
+    display: inline-block; /* или block */
+}
+.socials{
+    
+    &__content{
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+    }
+}

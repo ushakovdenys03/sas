@@ -1,7 +1,11 @@
 @import "./utils/fonts";
 
+* {
+    box-sizing: border-box;
+}
 
 body {
+    margin: 0;
     --bg: radial-gradient(circle, #cce3f1 0%, #4dbde9ac 80%, #248ecfbd 100%);
     --text: #000000;
     background: var(--bg);
@@ -22,8 +26,28 @@ h1, h2, p{
     margin: 0
 }
 
+.link{
+        text-decoration: none;
+        color: var(--text);
+        transition: 0.3s;
+    }
+.link:hover{
+        transform: scale(1.05);
+        color: green;
+}
 
+.icon{
+    transition: 0.3s;
+}
+.icon:hover{
+    fill: white
+}
 
 @import "./components/header";
 @import "./utils/tumbler";
-@import "./utils/backdrop"
+@import "./utils/backdrop";
+@import "./components/socials";
+@import "./components/locatiom";
+@import "./components/menu";
+@import "./components/chuvachki";
+@import "./components/contact";
