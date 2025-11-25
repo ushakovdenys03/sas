@@ -37,6 +37,7 @@ h1, h2, p{
 }
 
 .icon{
+    cursor: pointer;
     transition: 0.3s;
 }
 .icon:hover{
@@ -50,4 +51,4 @@ h1, h2, p{
 @import "./components/locatiom";
 @import "./components/menu";
 @import "./components/chuvachki";
-@import "./components/contact";
+@import "./components/footer";

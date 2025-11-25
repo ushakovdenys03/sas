@@ -1,0 +1,61 @@
+.chuvachki{
+    margin-top: 0;
+
+    &__section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__title{
+        margin-top: 20px;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__container{
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+
+        @media screen and (min-width: 530px) {
+            gap: 10px;  
+            justify-content: space-around; 
+        }
+    }
+
+    &__content{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        transition: 0.3s;
+    }
+
+    &__content:hover{
+        transform: scale(1.05);
+    }
+        
+    &__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(183, 52, 139, 0.5);
+        margin: 0;
+        border: 0 solid white;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        width: 150px;
+        height: 50px;
+        transition: 0.3s;
+    }
+
+    &__image{
+        margin: 0;
+        border: 0 solid white;
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+    }
+}

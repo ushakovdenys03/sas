@@ -1,0 +1,49 @@
+.information{
+
+    margin: 0;
+
+    &__container{
+        display: flex;
+        gap: 10px;
+    }
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        font-size: 1em;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    &__adress{
+        border-radius: 20px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 50%;
+        padding: 10px 30px;
+        transition: 0.3s;
+        background-color: rgba(239, 129, 230, 0.5);
+        color: var(--text);
+        text-decoration: none;
+        gap: 30px;
+    }
+
+    &__adress:hover{
+        transform: scale(1.1);
+        background-color: rgba(239, 129, 230, 1);
+    }
+
+    &__copyright{
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        font-size: 0.5em;
+    }
+
+}
