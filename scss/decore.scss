@@ -11,6 +11,14 @@ body {
     background: var(--bg);
     color: var(--text);
     transition: background 0.3s, color 0.3s;
+
+    @media screen and (min-width: 980px){
+        padding: 0 200px;
+    }
+
+    @media screen and (min-width: 1400px){
+        padding: 0 400px;
+    }
 }
 
 body.dark {

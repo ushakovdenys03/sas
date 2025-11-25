@@ -18,9 +18,10 @@
         gap: 10px;
         overflow-x: auto;
 
-        @media screen and (min-width: 530px) {
+        @media screen and (min-width: 550px) {
             gap: 10px;  
-            justify-content: space-around; 
+            justify-content: center;
+            flex-wrap: wrap; 
         }
     }
 
