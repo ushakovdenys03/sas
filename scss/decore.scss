@@ -52,6 +52,10 @@ h1, h2, p{
     fill: white
 }
 
+.is-delete{
+    display: none;
+}
+
 @import "./components/header";
 @import "./utils/tumbler";
 @import "./utils/backdrop";
@@ -60,3 +64,4 @@ h1, h2, p{
 @import "./components/menu";
 @import "./components/chuvachki";
 @import "./components/footer";
+@import "./utils/modal";
